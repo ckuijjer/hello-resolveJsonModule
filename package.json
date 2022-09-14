@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "tsc -p tsconfig.json && node index.js",
+    "ts-eager": "ts-eager index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
